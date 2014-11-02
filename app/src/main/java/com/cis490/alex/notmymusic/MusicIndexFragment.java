@@ -1,12 +1,14 @@
 package com.cis490.alex.notmymusic;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
@@ -37,8 +39,20 @@ public class MusicIndexFragment extends Fragment {
         GridView indexGridView = (GridView) getActivity().findViewById(R.id.gridMusicIndexView);
         List<SongModel> songs = new FakeMusicSercice().findAll();
 
-        MusicAdaptor songAdaptor = new MusicAdaptor(getActivity(),R.layout.activity_music_index,songs);
+        MusicAdaptor songAdaptor = new MusicAdaptor(getActivity(), R.layout.activity_music_index, songs);
         indexGridView.setAdapter(songAdaptor);
-    }
 
+
+        /**
+         * On Click event for Single Gridview Item
+         * */
+        indexGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent i = new Intent(getActivity(), MusicDetailActivity.class);
+                startActivity(i);
+            }
+        });
+    }
 }
