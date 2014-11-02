@@ -6,6 +6,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -43,9 +45,7 @@ public class MusicIndexFragment extends Fragment {
         indexGridView.setAdapter(songAdaptor);
 
 
-        /**
-         * On Click event for Single Gridview Item
-         * */
+        /*On Click event for Single Grid view Item*/
         indexGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {

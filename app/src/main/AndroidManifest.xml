@@ -20,11 +20,13 @@
         </activity>
         <activity
             android:name=".MusicDetailActivity"
-            android:label="@string/title_activity_music_detail" >
+            android:label="@string/title_activity_music_detail"
+            android:parentActivityName="com.cis490.alex.notmymusic.MusicIndexActivity" >
         </activity>
         <activity
             android:name=".AddMusicActivity"
-            android:label="@string/title_activity_add_music" >
+            android:label="@string/title_activity_add_music"
+            android:parentActivityName="com.cis490.alex.notmymusic.MusicIndexActivity" >
         </activity>
     </application>
 
