@@ -7,5 +7,6 @@
     <string name="title_activity_music_detail">Music Details</string>
     <string name="title_activity_add_music">Add Music</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_music_index">Music List</string>
 
 </resources>

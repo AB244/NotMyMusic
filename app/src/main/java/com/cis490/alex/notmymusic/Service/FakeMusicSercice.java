@@ -1,0 +1,230 @@
+package com.cis490.alex.notmymusic.Service;
+
+import com.cis490.alex.notmymusic.Models.SongModel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by Alex on 11/2/2014.
+ */
+public class FakeMusicSercice {
+    /*Song list from http://www.acclaimedmusic.net/*/
+    private List<SongModel> songs = new ArrayList<SongModel>();
+    {
+        songs.add(new SongModel("Bob Dylan","Like a Rolling Stone","Unknown Album of Bob Dylan"));
+        songs.add(new SongModel("Nirvana","Smells Like Teen Spirit","Unknown Album of Nirvana"));
+        songs.add(new SongModel("The Beach Boys","Good Vibrations","Unknown Album of The Beach Boys"));
+        songs.add(new SongModel("The Rolling Stones","(I Can't Get No) Satisfaction","Unknown Album of The Rolling Stones"));
+        songs.add(new SongModel("The Beatles","A Day in the Life","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Marvin Gaye","I Heard It Through the Grapevine","Unknown Album of Marvin Gaye"));
+        songs.add(new SongModel("Aretha Franklin","Respect","Unknown Album of Aretha Franklin"));
+        songs.add(new SongModel("The Beatles","Strawberry Fields Forever","Unknown Album of The Beatles"));
+        songs.add(new SongModel("The Ronettes","Be My Baby","Unknown Album of The Ronettes"));
+        songs.add(new SongModel("Chuck Berry","Johnny B. Goode","Unknown Album of Chuck Berry"));
+        songs.add(new SongModel("Marvin Gaye","What's Going On","Unknown Album of Marvin Gaye"));
+        songs.add(new SongModel("Otis Redding","(Sittin' On) The Dock of the Bay","Unknown Album of Otis Redding"));
+        songs.add(new SongModel("Bruce Springsteen","Born to Run","Unknown Album of Bruce Springsteen"));
+        songs.add(new SongModel("Joy Division","Love Will Tear Us Apart","Unknown Album of Joy Division"));
+        songs.add(new SongModel("The Who","My Generation","Unknown Album of The Who"));
+        songs.add(new SongModel("Michael Jackson","Billie Jean","Unknown Album of Michael Jackson"));
+        songs.add(new SongModel("Elvis Presley","Heartbreak Hotel","Unknown Album of Elvis Presley"));
+        songs.add(new SongModel("The Rolling Stones","Sympathy for the Devil","Unknown Album of The Rolling Stones"));
+        songs.add(new SongModel("Sex Pistols","Anarchy in the U.K.","Unknown Album of Sex Pistols"));
+        songs.add(new SongModel("Led Zeppelin","Stairway to Heaven","Unknown Album of Led Zeppelin"));
+        songs.add(new SongModel("The Beach Boys","God Only Knows","Unknown Album of The Beach Boys"));
+        songs.add(new SongModel("The Clash","London Calling","Unknown Album of The Clash"));
+        songs.add(new SongModel("Grandmaster Flash and The Furious Five","The Message","Unknown Album of Grandmaster Flash and The Furious Five"));
+        songs.add(new SongModel("Sex Pistols","God Save the Queen","Unknown Album of Sex Pistols"));
+        songs.add(new SongModel("Ike and Tina Turner","River Deep - Mountain High","Unknown Album of Ike and Tina Turner"));
+        songs.add(new SongModel("The Kingsmen","Louie Louie","Unknown Album of The Kingsmen"));
+        songs.add(new SongModel("John Lennon","Imagine","Unknown Album of John Lennon"));
+        songs.add(new SongModel("Prince","When Doves Cry","Unknown Album of Prince"));
+        songs.add(new SongModel("OutKast","Hey Ya!","Unknown Album of OutKast"));
+        songs.add(new SongModel("David Bowie","Heroes","Unknown Album of David Bowie"));
+        songs.add(new SongModel("The Kinks","Waterloo Sunset","Unknown Album of The Kinks"));
+        songs.add(new SongModel("The Righteous Brothers","You've Lost That Lovin' Feelin'","Unknown Album of The Righteous Brothers"));
+        songs.add(new SongModel("M.I.A.","Paper Planes","Unknown Album of M.I.A."));
+        songs.add(new SongModel("The Jackson 5","I Want You Back","Unknown Album of The Jackson 5"));
+        songs.add(new SongModel("Stevie Wonder","Superstition","Unknown Album of Stevie Wonder"));
+        songs.add(new SongModel("Ray Charles","What'd I Say","Unknown Album of Ray Charles"));
+        songs.add(new SongModel("The Kinks","You Really Got Me","Unknown Album of The Kinks"));
+        songs.add(new SongModel("The Beatles","Hey Jude","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Little Richard","Tutti Frutti","Unknown Album of Little Richard"));
+        songs.add(new SongModel("The Beatles","I Want to Hold Your Hand","Unknown Album of The Beatles"));
+        songs.add(new SongModel("New Order","Blue Monday","Unknown Album of New Order"));
+        songs.add(new SongModel("Sam Cooke","A Change Is Gonna Come","Unknown Album of Sam Cooke"));
+        songs.add(new SongModel("The Rolling Stones","Gimme Shelter","Unknown Album of The Rolling Stones"));
+        songs.add(new SongModel("Jimi Hendrix","Purple Haze","Unknown Album of Jimi Hendrix"));
+        songs.add(new SongModel("R.E.M.","Losing My Religion","Unknown Album of R.E.M."));
+        songs.add(new SongModel("Daft Punk","Get Lucky","Unknown Album of Daft Punk"));
+        songs.add(new SongModel("Beyoncé","Crazy in Love","Unknown Album of Beyoncé"));
+        songs.add(new SongModel("The White Stripes","Seven Nation Army","Unknown Album of The White Stripes"));
+        songs.add(new SongModel("Franz Ferdinand","Take Me Out","Unknown Album of Franz Ferdinand"));
+        songs.add(new SongModel("Pulp","Common People","Unknown Album of Pulp"));
+        songs.add(new SongModel("Buddy Holly & The Crickets","That'll Be the Day","Unknown Album of Buddy Holly & The Crickets"));
+        songs.add(new SongModel("Gnarls Barkley","Crazy","Unknown Album of Gnarls Barkley"));
+        songs.add(new SongModel("Queen","Bohemian Rhapsody","Unknown Album of Queen"));
+        songs.add(new SongModel("Elvis Presley","Suspicious Minds","Unknown Album of Elvis Presley"));
+        songs.add(new SongModel("Smokey Robinson and The Miracles","The Tracks of My Tears","Unknown Album of Smokey Robinson and The Miracles"));
+        songs.add(new SongModel("Four Tops","Reach Out I'll Be There","Unknown Album of Four Tops"));
+        songs.add(new SongModel("The Byrds","Mr. Tambourine Man","Unknown Album of The Byrds"));
+        songs.add(new SongModel("Derek and The Dominos","Layla","Unknown Album of Derek and The Dominos"));
+        songs.add(new SongModel("The Doors","Light My Fire","Unknown Album of The Doors"));
+        songs.add(new SongModel("Massive Attack","Unfinished Sympathy","Unknown Album of Massive Attack"));
+        songs.add(new SongModel("Martha and The Vandellas","Dancing in the Street","Unknown Album of Martha and The Vandellas"));
+        songs.add(new SongModel("The Rolling Stones","Jumpin' Jack Flash","Unknown Album of The Rolling Stones"));
+        songs.add(new SongModel("Lou Reed","Walk on the Wild Side","Unknown Album of Lou Reed"));
+        songs.add(new SongModel("Missy Elliott","Get Ur Freak On","Unknown Album of Missy Elliott"));
+        songs.add(new SongModel("Eagles","Hotel California","Unknown Album of Eagles"));
+        songs.add(new SongModel("The Verve","Bitter Sweet Symphony","Unknown Album of The Verve"));
+        songs.add(new SongModel("David Bowie","Space Oddity","Unknown Album of David Bowie"));
+        songs.add(new SongModel("Al Green","Let's Stay Together","Unknown Album of Al Green"));
+        songs.add(new SongModel("Ben E. King","Stand by Me","Unknown Album of Ben E. King"));
+        songs.add(new SongModel("Jimi Hendrix","All Along the Watchtower","Unknown Album of Jimi Hendrix"));
+        songs.add(new SongModel("Elvis Presley","Hound Dog","Unknown Album of Elvis Presley"));
+        songs.add(new SongModel("Beck","Loser","Unknown Album of Beck"));
+        songs.add(new SongModel("The Velvet Underground","I'm Waiting for the Man","Unknown Album of The Velvet Underground"));
+        songs.add(new SongModel("Bill Haley and His Comets","(We're Gonna) Rock Around the Clock","Unknown Album of Bill Haley and His Comets"));
+        songs.add(new SongModel("U2","One","Unknown Album of U2"));
+        songs.add(new SongModel("Jay-Z","99 Problems","Unknown Album of Jay-Z"));
+        songs.add(new SongModel("Billie Holiday","Strange Fruit","Unknown Album of Billie Holiday"));
+        songs.add(new SongModel("Donna Summer","I Feel Love","Unknown Album of Donna Summer"));
+        songs.add(new SongModel("The Specials","Ghost Town","Unknown Album of The Specials"));
+        songs.add(new SongModel("Jerry Lee Lewis","Whole Lotta Shakin' Goin' On","Unknown Album of Jerry Lee Lewis"));
+        songs.add(new SongModel("Sinéad O'Connor","Nothing Compares 2 U","Unknown Album of Sinéad O'Connor"));
+        songs.add(new SongModel("The Smiths","There Is a Light That Never Goes Out","Unknown Album of The Smiths"));
+        songs.add(new SongModel("Led Zeppelin","Whole Lotta Love","Unknown Album of Led Zeppelin"));
+        songs.add(new SongModel("James Brown","Papa's Got a Brand New Bag","Unknown Album of James Brown"));
+        songs.add(new SongModel("The Mamas and the Papas","California Dreamin'","Unknown Album of The Mamas and the Papas"));
+        songs.add(new SongModel("LCD Soundsystem","All My Friends","Unknown Album of LCD Soundsystem"));
+        songs.add(new SongModel("The Animals","House of the Rising Sun","Unknown Album of The Animals"));
+        songs.add(new SongModel("Oasis","Live Forever","Unknown Album of Oasis"));
+        songs.add(new SongModel("Talking Heads","Once in a Lifetime","Unknown Album of Talking Heads"));
+        songs.add(new SongModel("Ramones","Blitzkrieg Bop","Unknown Album of Ramones"));
+        songs.add(new SongModel("The Smiths","How Soon Is Now?","Unknown Album of The Smiths"));
+        songs.add(new SongModel("Chic","Good Times","Unknown Album of Chic"));
+        songs.add(new SongModel("Percy Sledge","When a Man Loves a Woman","Unknown Album of Percy Sledge"));
+        songs.add(new SongModel("The Smiths","This Charming Man","Unknown Album of The Smiths"));
+        songs.add(new SongModel("Simon and Garfunkel","Bridge Over Troubled Water","Unknown Album of Simon and Garfunkel"));
+        songs.add(new SongModel("Guns N' Roses","Sweet Child O' Mine","Unknown Album of Guns N' Roses"));
+        songs.add(new SongModel("Radiohead","Paranoid Android","Unknown Album of Radiohead"));
+        songs.add(new SongModel("Public Enemy","Fight the Power","Unknown Album of Public Enemy"));
+        songs.add(new SongModel("Johnny Cash","I Walk the Line","Unknown Album of Johnny Cash"));
+        songs.add(new SongModel("The Beatles","She Loves You","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Buffalo Springfield","For What It's Worth","Unknown Album of Buffalo Springfield"));
+        songs.add(new SongModel("LCD Soundsystem","Losing My Edge","Unknown Album of LCD Soundsystem"));
+        songs.add(new SongModel("Eddie Cochran","Summertime Blues","Unknown Album of Eddie Cochran"));
+        songs.add(new SongModel("Rod Stewart","Maggie May","Unknown Album of Rod Stewart"));
+        songs.add(new SongModel("Carl Perkins","Blue Suede Shoes","Unknown Album of Carl Perkins"));
+        songs.add(new SongModel("The Police","Every Breath You Take","Unknown Album of The Police"));
+        songs.add(new SongModel("Chuck Berry","Maybellene","Unknown Album of Chuck Berry"));
+        songs.add(new SongModel("The Byrds","Eight Miles High","Unknown Album of The Byrds"));
+        songs.add(new SongModel("Creedence Clearwater Revival","Proud Mary","Unknown Album of Creedence Clearwater Revival"));
+        songs.add(new SongModel("M83","Midnight City","Unknown Album of M83"));
+        songs.add(new SongModel("Run-D.M.C.","Walk This Way","Unknown Album of Run-D.M.C."));
+        songs.add(new SongModel("The Rolling Stones","Honky Tonk Women","Unknown Album of The Rolling Stones"));
+        songs.add(new SongModel("Procol Harum","A Whiter Shade of Pale","Unknown Album of Procol Harum"));
+        songs.add(new SongModel("Elvis Presley","That's All Right","Unknown Album of Elvis Presley"));
+        songs.add(new SongModel("Oasis","Wonderwall","Unknown Album of Oasis"));
+        songs.add(new SongModel("The Beatles","Yesterday","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Bee Gees","Stayin' Alive","Unknown Album of Bee Gees"));
+        songs.add(new SongModel("Buddy Holly & The Crickets","Peggy Sue","Unknown Album of Buddy Holly & The Crickets"));
+        songs.add(new SongModel("David Bowie","Life on Mars?","Unknown Album of David Bowie"));
+        songs.add(new SongModel("Kylie Minogue","Can't Get You Out of My Head","Unknown Album of Kylie Minogue"));
+        songs.add(new SongModel("Bob Marley and The Wailers","No Woman No Cry","Unknown Album of Bob Marley and The Wailers"));
+        songs.add(new SongModel("The Who","Won't Get Fooled Again","Unknown Album of The Who"));
+        songs.add(new SongModel("The Temptations","My Girl","Unknown Album of The Temptations"));
+        songs.add(new SongModel("The Beatles","In My Life","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Bob Dylan","Tangled Up in Blue","Unknown Album of Bob Dylan"));
+        songs.add(new SongModel("Elvis Presley","Mystery Train","Unknown Album of Elvis Presley"));
+        songs.add(new SongModel("ABBA","Dancing Queen","Unknown Album of ABBA"));
+        songs.add(new SongModel("Yeah Yeah Yeahs","Maps","Unknown Album of Yeah Yeah Yeahs"));
+        songs.add(new SongModel("Roy Orbison","Oh, Pretty Woman","Unknown Album of Roy Orbison"));
+        songs.add(new SongModel("James Brown","Get Up (I Feel Like Being a) Sex Machine","Unknown Album of James Brown"));
+        songs.add(new SongModel("Bruce Springsteen","Thunder Road","Unknown Album of Bruce Springsteen"));
+        songs.add(new SongModel("Elvis Presley","Jailhouse Rock","Unknown Album of Elvis Presley"));
+        songs.add(new SongModel("Arctic Monkeys","I Bet You Look Good on the Dancefloor","Unknown Album of Arctic Monkeys"));
+        songs.add(new SongModel("Jerry Lee Lewis","Great Balls of Fire","Unknown Album of Jerry Lee Lewis"));
+        songs.add(new SongModel("Animal Collective","My Girls","Unknown Album of Animal Collective"));
+        songs.add(new SongModel("Booker T. & The MG's","Green Onions","Unknown Album of Booker T. & The MG's"));
+        songs.add(new SongModel("T. Rex","Get It On [Bang a Gong (Get It On)]","Unknown Album of T. Rex"));
+        songs.add(new SongModel("Lana Del Rey","Video Games","Unknown Album of Lana Del Rey"));
+        songs.add(new SongModel("Patsy Cline","Crazy","Unknown Album of Patsy Cline"));
+        songs.add(new SongModel("Blondie","Heart of Glass","Unknown Album of Blondie"));
+        songs.add(new SongModel("The Band","The Weight","Unknown Album of The Band"));
+        songs.add(new SongModel("The Strokes","Last Nite","Unknown Album of The Strokes"));
+        songs.add(new SongModel("Radiohead","Creep","Unknown Album of Radiohead"));
+        songs.add(new SongModel("The Clash","(White Man) In Hammersmith Palais","Unknown Album of The Clash"));
+        songs.add(new SongModel("Underworld","Born Slippy","Unknown Album of Underworld"));
+        songs.add(new SongModel("Dionne Warwick","Walk On By","Unknown Album of Dionne Warwick"));
+        songs.add(new SongModel("Sly and the Family Stone","Family Affair","Unknown Album of Sly and the Family Stone"));
+        songs.add(new SongModel("The Shirelles","Will You Love Me Tomorrow","Unknown Album of The Shirelles"));
+        songs.add(new SongModel("Prince","Little Red Corvette","Unknown Album of Prince"));
+        songs.add(new SongModel("The Sugarhill Gang","Rapper's Delight","Unknown Album of The Sugarhill Gang"));
+        songs.add(new SongModel("The Rapture","House of Jealous Lovers","Unknown Album of The Rapture"));
+        songs.add(new SongModel("Wilson Pickett","In the Midnight Hour","Unknown Album of Wilson Pickett"));
+        songs.add(new SongModel("MGMT","Time to Pretend","Unknown Album of MGMT"));
+        songs.add(new SongModel("Glen Campbell","Wichita Lineman","Unknown Album of Glen Campbell"));
+        songs.add(new SongModel("Del Shannon","Runaway","Unknown Album of Del Shannon"));
+        songs.add(new SongModel("The Rolling Stones","Paint It, Black","Unknown Album of The Rolling Stones"));
+        songs.add(new SongModel("Van Morrison","Brown Eyed Girl","Unknown Album of Van Morrison"));
+        songs.add(new SongModel("Roxy Music","Virginia Plain","Unknown Album of Roxy Music"));
+        songs.add(new SongModel("The Beach Boys","Don't Worry Baby","Unknown Album of The Beach Boys"));
+        songs.add(new SongModel("Blur","Song 2","Unknown Album of Blur"));
+        songs.add(new SongModel("Amy Winehouse","Rehab","Unknown Album of Amy Winehouse"));
+        songs.add(new SongModel("Creedence Clearwater Revival","Fortunate Son","Unknown Album of Creedence Clearwater Revival"));
+        songs.add(new SongModel("Gene Vincent","Be-Bop-a-Lula","Unknown Album of Gene Vincent"));
+        songs.add(new SongModel("Them","Gloria","Unknown Album of Them"));
+        songs.add(new SongModel("Bob Dylan","Subterranean Homesick Blues","Unknown Album of Bob Dylan"));
+        songs.add(new SongModel("Rihanna","Umbrella","Unknown Album of Rihanna"));
+        songs.add(new SongModel("The Impressions","People Get Ready","Unknown Album of The Impressions"));
+        songs.add(new SongModel("Hank Williams","I'm So Lonesome I Could Cry","Unknown Album of Hank Williams"));
+        songs.add(new SongModel("Elvis Presley","Don't Be Cruel","Unknown Album of Elvis Presley"));
+        songs.add(new SongModel("The Beatles","Penny Lane","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Arcade Fire","Reflektor","Unknown Album of Arcade Fire"));
+        songs.add(new SongModel("The Velvet Underground","Heroin","Unknown Album of The Velvet Underground"));
+        songs.add(new SongModel("Black Sabbath","Paranoid","Unknown Album of Black Sabbath"));
+        songs.add(new SongModel("Beastie Boys","Sabotage","Unknown Album of Beastie Boys"));
+        songs.add(new SongModel("Hercules and Love Affair","Blind","Unknown Album of Hercules and Love Affair"));
+        songs.add(new SongModel("Kraftwerk","Autobahn","Unknown Album of Kraftwerk"));
+        songs.add(new SongModel("The Undertones","Teenage Kicks","Unknown Album of The Undertones"));
+        songs.add(new SongModel("MGMT","Kids","Unknown Album of MGMT"));
+        songs.add(new SongModel("Madonna","Like a Prayer","Unknown Album of Madonna"));
+        songs.add(new SongModel("Prince","Sign 'O' the Times","Unknown Album of Prince"));
+        songs.add(new SongModel("Daft Punk","One More Time","Unknown Album of Daft Punk"));
+        songs.add(new SongModel("Fats Domino","Blueberry Hill","Unknown Album of Fats Domino"));
+        songs.add(new SongModel("Talking Heads","Psycho Killer","Unknown Album of Talking Heads"));
+        songs.add(new SongModel("The Beatles","Help!","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Radiohead","Idioteque","Unknown Album of Radiohead"));
+        songs.add(new SongModel("Television","Marquee Moon","Unknown Album of Television"));
+        songs.add(new SongModel("Dr. Dre","Nuthin' But a 'G' Thang","Unknown Album of Dr. Dre"));
+        songs.add(new SongModel("The La's","There She Goes","Unknown Album of The La's"));
+        songs.add(new SongModel("The Temptations","Papa Was a Rolling Stone","Unknown Album of The Temptations"));
+        songs.add(new SongModel("Jonathan Richman/The Modern Lovers","Roadrunner","Unknown Album of Jonathan Richman/The Modern Lovers"));
+        songs.add(new SongModel("Fleetwood Mac","Go Your Own Way","Unknown Album of Fleetwood Mac"));
+        songs.add(new SongModel("Britney Spears","Toxic","Unknown Album of Britney Spears"));
+        songs.add(new SongModel("Johnny Cash","Hurt","Unknown Album of Johnny Cash"));
+        songs.add(new SongModel("Johnny Cash","Folsom Prison Blues","Unknown Album of Johnny Cash"));
+        songs.add(new SongModel("Hot Chip","Over and Over","Unknown Album of Hot Chip"));
+        songs.add(new SongModel("The Rolling Stones","Brown Sugar","Unknown Album of The Rolling Stones"));
+        songs.add(new SongModel("Pink Floyd","See Emily Play","Unknown Album of Pink Floyd"));
+        songs.add(new SongModel("The Beatles","While My Guitar Gently Weeps","Unknown Album of The Beatles"));
+        songs.add(new SongModel("Buzzcocks","Ever Fallen in Love?","Unknown Album of Buzzcocks"));
+        songs.add(new SongModel("Blur","Girls and Boys","Unknown Album of Blur"));
+
+    }
+
+    public List<SongModel> findAll(){
+        return songs;
+    }
+
+    public SongModel Find(String name){
+        for(SongModel song:songs){
+            if(song.getTitle().equals(name)){
+                return song;
+            }
+        }
+        return new SongModel();
+    }
+}

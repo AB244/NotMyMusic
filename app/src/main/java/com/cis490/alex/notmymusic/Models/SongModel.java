@@ -19,4 +19,16 @@ public class SongModel {
         this.Artist = artist;
         this.Album = album;
     }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public String getArtist() {
+        return Artist;
+    }
+
+    public String getAlbum() {
+        return Album;
+    }
 }
