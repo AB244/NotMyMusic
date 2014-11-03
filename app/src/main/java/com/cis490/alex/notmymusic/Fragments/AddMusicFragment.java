@@ -1,4 +1,4 @@
-package com.cis490.alex.notmymusic;
+package com.cis490.alex.notmymusic.Fragments;
 
 import android.app.Activity;
 import android.net.Uri;
@@ -7,6 +7,8 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.cis490.alex.notmymusic.R;
 
 public class AddMusicFragment extends Fragment {
 
@@ -22,4 +24,5 @@ public class AddMusicFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_add_music,container,false);
 
     }
+
 }

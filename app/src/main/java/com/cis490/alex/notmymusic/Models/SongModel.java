@@ -14,7 +14,7 @@ public class SongModel {
 
     public SongModel() {}
 
-    public SongModel(String title, String artist, String album ) {
+    public SongModel(String artist, String title, String album ) {
         this.Title = title;
         this.Artist = artist;
         this.Album = album;

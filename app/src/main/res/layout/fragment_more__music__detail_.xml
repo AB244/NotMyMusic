@@ -2,11 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cis490.alex.notmymusic.Fragments.DetailTabFragments.MusicDetailFragment">
+    tools:context="com.cis490.alex.notmymusic.Fragments.DetailTabFragments.More_Music_Detail_Fragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="This is the temporary music detail fragment." />
+        android:text="This is the More Music Fragment" />
 
 </RelativeLayout>

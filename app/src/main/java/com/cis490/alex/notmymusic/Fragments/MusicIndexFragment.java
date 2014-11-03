@@ -1,4 +1,4 @@
-package com.cis490.alex.notmymusic;
+package com.cis490.alex.notmymusic.Fragments;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -15,6 +15,9 @@ import android.widget.GridView;
 import android.widget.SimpleAdapter;
 
 import com.cis490.alex.notmymusic.Models.SongModel;
+import com.cis490.alex.notmymusic.MusicAdaptor;
+import com.cis490.alex.notmymusic.MusicDetailActivity;
+import com.cis490.alex.notmymusic.R;
 import com.cis490.alex.notmymusic.Service.FakeMusicSercice;
 
 import java.util.List;

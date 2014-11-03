@@ -3,9 +3,14 @@ package com.cis490.alex.notmymusic;
 import android.app.Activity;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.Toast;
+
+import com.cis490.alex.notmymusic.Fragments.AddMusicFragment;
 
 
 public class AddMusicActivity extends Activity {
@@ -24,9 +29,26 @@ public class AddMusicActivity extends Activity {
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.add_music_actions, menu);
+        inflater.inflate(R.menu.music_detail_actions, menu);
         return super.onCreateOptionsMenu(menu);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_search:
+
+                Intent intent = new Intent(this, MusicIndexActivity.class);
+                intent.setAction("OPEN SEARCH");
+
+                startActivity(intent);
+                return true;
+            case R.id.action_add:
+                Toast toast = Toast.makeText(this, "Add Music Currently Displayed.", Toast.LENGTH_LONG);
+                toast.show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }

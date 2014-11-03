@@ -1,24 +1,14 @@
-package com.cis490.alex.notmymusic;
+package com.cis490.alex.notmymusic.Fragments;
 
-import android.app.Activity;
-import android.net.Uri;
 import android.os.Bundle;
 import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.cis490.alex.notmymusic.R;
 
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link MusicSearchFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link MusicSearchFragment#newInstance} factory method to
- * create an instance of this fragment.
- *
- */
 public class MusicSearchFragment extends Fragment {
 
     @Override
