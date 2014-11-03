@@ -18,7 +18,6 @@ import java.util.List;
 public class MusicAdaptor extends ArrayAdapter<SongModel> {
     private Context songContext;
     private List<SongModel> listSongEntries;
-    private SimpleDateFormat df = new SimpleDateFormat("MMM, d, yyyy, (EEE)");
 
     public MusicAdaptor(Context context, int textViewResourceId, List<SongModel> songEntries) {
         super(context, textViewResourceId, songEntries);

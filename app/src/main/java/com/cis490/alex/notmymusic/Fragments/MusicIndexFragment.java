@@ -53,8 +53,8 @@ public class MusicIndexFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Intent i = new Intent(getActivity(), MusicDetailActivity.class);
-                startActivity(i);
+                Intent intent = new Intent(getActivity(), MusicDetailActivity.class);
+                startActivity(intent);
             }
         });
     }

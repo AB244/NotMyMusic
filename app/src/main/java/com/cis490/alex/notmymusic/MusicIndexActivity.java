@@ -37,12 +37,9 @@ public class MusicIndexActivity extends Activity {
             CreateGridView();
         }
 
-
-
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.music_index_menu_actions, menu);
         return super.onCreateOptionsMenu(menu);
